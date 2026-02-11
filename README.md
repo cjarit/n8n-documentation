@@ -1,8 +1,8 @@
-# CLICX UX Writer Documentation
+# UX Writer Agent Documentation
 
-This repository contains the system prompts and safety guardrails for the **CLICX UX Writer** — a specialized AI assistant designed for virtual banking and financial applications. 
+This repository contains the system prompts and safety guardrails for a **UX Writer** — a specialized AI agent designed for virtual banking and financial applications. 
 
-The system is built to help UX/UI designers create consistent, compliant, and developer-ready microcopy while adhering to strict banking regulations and the CLICX brand voice.
+The system is built to help UX/UI designers create consistent, compliant, and developer-ready microcopy while adhering to strict banking regulations and brand voice.
 
 ## 📂 Project Structure
 
@@ -21,7 +21,7 @@ Safety and compliance filters to protect the integrity of the AI interactions.
 
 ## 🚀 Core Principles
 
-1. **Tool-First (RAG)**: The AI MUST use the Retrieval-Augmented Generation (RAG) tool for every input to ensure accuracy against the CLICX Tone and Voice guidelines.
+1. **Tool-First (RAG)**: The AI MUST use the Retrieval-Augmented Generation (RAG) tool for every input to ensure accuracy against the Tone and Voice guidelines.
 2. **Evidence-First**: No hallucinations. If the info isn't in the provided context or RAG, the AI must ask for clarification.
 3. **Banking Compliance**: Prioritizes security and legal compliance over creative expression.
 4. **Bilingual Support**: Full support for both Thai and English, including side-by-side localizations.
